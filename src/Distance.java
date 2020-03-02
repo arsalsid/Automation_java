@@ -2,17 +2,15 @@ import java.util.Scanner;
 public class Distance {
     public static void main(String[] args) {
 
-        int m = 1000;
-        double km;
+        int m= 1000;
 
-
-        Scanner d = new Scanner(System.in);
+        Scanner Distance = new Scanner(System.in);
         System.out.println("Enter your Kilometer :");
 
-        double Distance = d.nextDouble();
-        double Meter = km * m ;
-        
-        System.out.println("Meter :" +Meter);
+        double Kilometer = Distance.nextDouble();
+        double Meter = Kilometer * m;
+
+        System.out.println("Total Meter is :" +Meter);
 //
 //        System.out.println("Enter your Distance in Meter : ");
 //        System.out.println("Enter your Distance in feets : ");
