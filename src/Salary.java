@@ -12,6 +12,7 @@ public class Salary {
 
             //Calculate Allowances fo Basic Salary
         System.out.println("Your Gross Salary is :");
+
         double Dearness_Allowance = Basic_Salary * .40;
         double Rent_Allowance = Basic_Salary * .20;
 
