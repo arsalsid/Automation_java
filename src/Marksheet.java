@@ -21,25 +21,30 @@ public class Marksheet {
         double Result = ((Marks / 500) * 100);
         System.out.println("Your Percentage is  :" +Result);
 
-        if (Marks > 90)
+        if(Marks >= 90)
+        {
             System.out.println("Grade A1");
-
-        else {
+        }
+        else if (Marks >= 80)
+        {
             System.out.println("Grade A");
         }
-
-        if (Marks < 70)
+        else if (Marks >= 70 )
+        {
             System.out.println("Grade B");
-
-        else {
+        }
+        else if(Marks >= 60)
+        {
             System.out.println("Grade C");
         }
-//
-//        if (Marks == 50)
-//            System.out.println("Below Average");
-//
-//        else {
-//            System.out.println("Fail");
-//        }
+        else if (Marks >= 50)
+        {
+            System.out.println("Grade : D");
+        }
+        else
+            {
+            System.out.println("Fail");
+        }
+        System.out.println("Your Grade is : " +Marks);
     }
 }
