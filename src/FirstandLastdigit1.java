@@ -10,9 +10,9 @@ public class FirstandLastdigit1 {
         int num = s.nextInt();
 
         first_digit = num;
-        while (first_digit >= 10)
+        while (first_digit >= 10) //Condition
         {
-            first_digit = first_digit / 10;
+            first_digit = first_digit / 10;  // divisible by 10
         }
 
         last_digit = num % 10;
